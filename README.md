@@ -16,3 +16,7 @@ The repository is structured per-game, and sometimes with a universal category:
 - Inside each game folder you may find:
   - `Script.lua` - Name can depend, but will end in ".lua".
   - `Readme.md` - Describes the script or how to execute it.
+
+## 🙏 Requesting
+
+The scripts listed will only be listed if my influence is involved, but you can request scripts for games or inform me of bugs [here](https://discord.com/users/998734989279633438).
