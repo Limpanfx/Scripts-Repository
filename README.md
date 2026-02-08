@@ -15,7 +15,7 @@ The repository is structured per-game, and sometimes with a universal category:
 - `Universal/` - Scripts and utilities that work in multiple games (e.g. UI, utilities, general ESP, QoL).
 - `<GameName>/` - Scripts targeting a specific game.
 - Inside each game folder you may find:
-  - `Script.lua` - Name can depend, but will end in ".lua".
+  - `Script.lua` - Is the script. Name can depend, but will end in ".lua".
   - `Readme.md` - Describes the script or how to execute it.
 
 ## 🙏 Requesting
