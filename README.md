@@ -20,3 +20,11 @@ The repository is structured per-game, and sometimes with a universal category:
 ## 🙏 Requesting
 
 The scripts listed will only be listed if my influence is involved, but you can request scripts for games or inform me of bugs [here](https://discord.com/users/998734989279633438).
+
+## 👤 About me
+
+I go by **Limpan**, and I mainly script Roblox exploits for fun, learning, and QoL automation in the games I play.  
+Most of what you see here starts as something I make for myself first, then clean up and release if it’s stable enough.
+
+I enjoy experimenting with new ideas, optimizing scripts, and making things as smooth and minimal as possible.  
+About me [here](https://guns.lol/Limpan).
