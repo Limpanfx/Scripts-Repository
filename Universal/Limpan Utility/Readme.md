@@ -9,13 +9,13 @@
 - **Open Source**: 100% free and no key systems.
 
 ## 🚀 Usage
-1. Copy the entire loadstring below or get the script [here](https://raw.githubusercontent.com/Limpanfx/Limpan-Utility-Script/refs/heads/main/Script.lua).
+1. Copy the entire loadstring below or get the script [here](https://raw.githubusercontent.com/Limpanfx/Scripts-Repository/refs/heads/main/Universal/Limpan%20Utility/Script.lua).
 2. Paste it into your executor.
 3. Execute. The UI appears center-screen.
 4. Toggle with `RightControl`.
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Limpanfx/Scripts-Repository/refs/heads/main/Universal/Limpan_Utility.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Limpanfx/Scripts-Repository/refs/heads/main/Universal/Limpan%20Utility/Script.lua", true))()
 ```
 
 ## 🤝 Contributing
