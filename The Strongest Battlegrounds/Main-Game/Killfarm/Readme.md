@@ -2,15 +2,11 @@
 
 Killfarm setup for the **Main-Game** using multiple accounts.
 
----
-
 ## Steps
 
 1. Join the game on every account and execute the script on each.
 2. On your alt accounts, press `Alt 1-4` sperately on each account, depending on how many alts you are using.
 3. On your main account, press the `Main` button to start the farm.
-
----
 
 ## Notes
 
