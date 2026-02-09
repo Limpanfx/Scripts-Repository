@@ -14,3 +14,7 @@ Do **not** run them on accounts or inventories you care about.
 ## What the script does
 
 - Teleport the local player through `workspace.tower.finishes` children to simulate stage completion.
+
+## Script
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Limpanfx/Scripts-Repository/refs/heads/main/Tower%20of%20Hell/Script.lua"))()
