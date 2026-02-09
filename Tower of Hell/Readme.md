@@ -8,7 +8,7 @@ Using this script is **very** likely to result in a ban from:
 - The specific game (Tower of Hell or related copies).
 - The experience’s anticheat / moderation systems.
 
-You use this scripts entirely at your own risk.  
+You use this script entirely at your own risk.  
 During testing a ban was a result.
 
 ## What the script does
