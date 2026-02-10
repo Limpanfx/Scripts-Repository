@@ -4,7 +4,7 @@ A small **collection** of my Roblox exploit scripts, organized after game.
 Most scripts are meant to be executed with modern Roblox executors that support `loadstring` and `game:HttpGet`.
 Scripts are specifically made for low UNC executors, but can be outdated.
 Read more about executors [here](https://github.com/Limpanfx/Scripts-Repository/blob/main/Executor.md).
-> Use everything at your own risk. I am not responsible for bans, data loss, or any issues caused by these scripts.
+> Use everything at your own risk. I am not responsible for bans, data loss, or any issues caused by these scripts. Private servers are usually recommended.
 
 ---
 
