@@ -1,6 +1,6 @@
 # Natural Disaster Survival Script
 
-This is a simple Roblox script for **Natural Disaster Survival** that auto-corrects your position back to the lobby if you get teleported.
+This is a simple Roblox script for **Natural Disaster Survival** that auto-corrects your position/teleports you back to the lobby if you get teleported by the game.
 
 ## Loadstring
 
