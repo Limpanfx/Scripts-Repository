@@ -4,7 +4,7 @@ Custom Kavo UI script for the Roblox game “Maze Runner” adding quality-of-li
 
 ## Features
 
-- **Movement**: Bypassed walkspeed slider, infinite jump toggle, fullbright lighting tweak.
+- Movement: Bypassed walkspeed slider, infinite jump toggle, fullbright lighting tweak.
 - Removals: Maze walls and roof, kill parts, traps, tutorial ring, and gamepass prompt rings.
 - Autofarm: One-click pumpkin autofarm using proximity teleport + E key spam.
 - Teleports: Badge teleports (Mushroom Cave), sector teleports, and looped Night Obby teleport.
