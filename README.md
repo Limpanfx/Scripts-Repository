@@ -29,3 +29,8 @@ Most of what you see here starts as something I make for myself first, then clea
 
 I enjoy experimenting with new ideas, optimizing scripts, and making things as smooth and minimal as possible.  
 About me [here](https://guns.lol/Limpan).
+
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./License.mdE) file for full license text.
