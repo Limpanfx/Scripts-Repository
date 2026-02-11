@@ -33,4 +33,4 @@ About me [here](https://guns.lol/Limpan).
 ## License
 
 This project is licensed under the MIT License.  
-See the [LICENSE](./License.mdE) file for full license text.
+See the [License.md](./License.md) file for details.
