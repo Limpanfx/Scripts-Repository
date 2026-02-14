@@ -21,22 +21,21 @@ I specifically made this as a “public” version because I do not want to leak
 3. Execute. The UI appears left-screen.
 
 ```lua
-local queueteleport =
-    (queue_on_teleport)
-    or (syn and syn.queue_on_teleport)
-    or (fluxus and fluxus.queue_on_teleport)
+local url = "https://raw.githubusercontent.com/Limpanfx/Scripts-Repository/refs/heads/main/The%20Strongest%20Battlegrounds/Duels/Manual/Script.lua"
 
-if not queueteleport then
-    warn("queue_on_teleport not supported by this executor")
+if getgenv then
+    if getgenv().TSB_DUELS_AUTOEXECED then return end
+    getgenv().TSB_DUELS_AUTOEXECED = true
 end
 
-local LOCAL_SCRIPT_CODE = [[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Limpanfx/Scripts-Repository/refs/heads/main/The%20Strongest%20Battlegrounds/Duels/Manual/Script.lua", true))()
-]]
+loadstring(game:HttpGet(url, true))()
 
-loadstring(LOCAL_SCRIPT_CODE)()
-
-if queueteleport then
-    queueteleport(LOCAL_SCRIPT_CODE)
+local queue = queue_on_teleport or queueonteleport or syn and syn.queue_on_teleport
+if queue then
+    queue(([[
+        -- re-run in the next server without needing your AE folder
+        pcall(function() getgenv().TSB_DUELS_AUTOEXECED = nil end)
+        loadstring(game:HttpGet(%q, true))()
+    ]]):format(url))
 end
 ```
