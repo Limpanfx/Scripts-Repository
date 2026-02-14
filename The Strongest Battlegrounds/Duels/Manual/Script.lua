@@ -5,11 +5,6 @@ local StarterGui = game:GetService("StarterGui")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
--- Hide chat on execution
-pcall(function()
-    StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
-end)
-
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "TeleportGUI"
 screenGui.ResetOnSpawn = false
