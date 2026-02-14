@@ -9,7 +9,7 @@ Simple script that teleports you into a random spot in the solo duel queue area 
 - Teleports you to a random position inside a defined region near the solo queue.
 
 ## Loadstring
-
+- This version of the loadstring is on autoexecute per default.
 ```lua
 local executorInfo = identifyexecutor and identifyexecutor() or {}
 
