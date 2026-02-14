@@ -11,10 +11,17 @@ Simple script that teleports you into a random spot in the solo duel queue area 
 ## Loadstring
 
 ```lua
+local executorInfo = identifyexecutor and identifyexecutor() or {}
+
 local queueteleport =
     (queue_on_teleport)
     or (syn and syn.queue_on_teleport)
     or (fluxus and fluxus.queue_on_teleport)
+    or (queueonteleport)
+
+if not queueteleport and string.find((executorInfo.name or "").lower(), "xeno") then
+    queueteleport = function() end  -- No-op to prevent errors
+end
 
 if not queueteleport then
     warn("queue_on_teleport not supported by this executor")
