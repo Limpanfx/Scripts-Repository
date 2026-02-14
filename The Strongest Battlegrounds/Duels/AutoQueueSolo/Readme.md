@@ -20,7 +20,7 @@ local queueteleport =
     or (queueonteleport)
 
 if not queueteleport and string.find((executorInfo.name or "").lower(), "xeno") then
-    queueteleport = function() end  -- No-op to prevent errors
+    queueteleport = function() end
 end
 
 if not queueteleport then
