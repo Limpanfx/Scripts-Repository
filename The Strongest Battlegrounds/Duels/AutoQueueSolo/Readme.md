@@ -1,18 +1,14 @@
-# Project Title
+# The Strongest Battlegrounds – Duels AutoQueue Solo
 
-Short description of what this script does.
+Simple script that teleports you into a random spot in the solo duel queue area in The Strongest Battlegrounds (duels lobby).
 
 ## Features
 
-- Feature one
-- Feature two
+- Only runs in the correct duels place (checks `game.PlaceId`).
+- Waits for your character and `HumanoidRootPart`.
+- Teleports you to a random position inside a defined region near the solo queue.
 
-## Usage
-
-1. Step one
-2. Step two
-
-## Code
+## Loadstring
 
 ```lua
 local queueteleport =
